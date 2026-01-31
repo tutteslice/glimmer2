@@ -1,0 +1,8 @@
+{
+  "name": "Glimmer",
+  "description": "Find your light. A smart emotional diary to capture your glimmers and navigate the dark times, powered by Gemini.",
+  "requestFramePermissions": [
+    "microphone",
+    "camera"
+  ]
+}
