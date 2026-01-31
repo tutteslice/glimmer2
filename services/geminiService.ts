@@ -3,9 +3,9 @@ import { AnalysisResult, DiaryInsight, FeelingEntry, Language, Person } from "..
 
 // Dynamic AI getter to prevent app crash if SDK fails to load
 const getAi = async () => {
-    // API key must be obtained exclusively from import.meta.env.VITE_API_KEY
+    // API key must be obtained from Vite's environment variables
     if (!import.meta.env.VITE_API_KEY) {
-        console.warn("API Key is missing in import.meta.env.VITE_API_KEY");
+        console.warn("API Key is missing. Make sure to set VITE_API_KEY in your .env file.");
         return null;
     }
     try {
