@@ -16,7 +16,7 @@ function App() {
   // Check for API key on mount and whenever view changes
   useEffect(() => {
      // API Key must come exclusively from env
-     setHasApiKey(!!process.env.API_KEY);
+     setHasApiKey(!!import.meta.env.VITE_API_KEY);
   }, [currentView]);
 
   const t = TRANSLATIONS[language];

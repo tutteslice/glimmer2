@@ -3,13 +3,13 @@ import { AnalysisResult, DiaryInsight, FeelingEntry, Language, Person } from "..
 
 // Dynamic AI getter to prevent app crash if SDK fails to load
 const getAi = async () => {
-    // API key must be obtained exclusively from process.env.API_KEY
-    if (!process.env.API_KEY) {
-        console.warn("API Key is missing in process.env.API_KEY");
+    // API key must be obtained exclusively from import.meta.env.VITE_API_KEY
+    if (!import.meta.env.VITE_API_KEY) {
+        console.warn("API Key is missing in import.meta.env.VITE_API_KEY");
         return null;
     }
     try {
-        return new GoogleGenAI({ apiKey: process.env.API_KEY });
+        return new GoogleGenAI({ apiKey: import.meta.env.VITE_API_KEY });
     } catch (e) {
         console.error("Failed to initialize GoogleGenAI or SDK missing", e);
         return null;

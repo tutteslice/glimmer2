@@ -1,4 +1,3 @@
-
 # Glimmer
 
 **Find your light.**
@@ -53,13 +52,14 @@ Powered by **Google Gemini AI**, Glimmer offers structured analysis, mood tracki
     ```bash
     npm install
     ```
-3.  Set your API Key. Ensure `process.env.API_KEY` is available in your build environment.
-    *   If using Vite, create a `.env` file: `VITE_API_KEY=your_key_here` (and update code to use `import.meta.env`).
-    *   If using a standard bundler, configure your environment variables accordingly.
+3.  Set your API Key. Create a `.env` file in the root directory:
+    ```
+    VITE_API_KEY=your_key_here
+    ```
 
 4.  Start the development server:
     ```bash
-    npm start
+    npm run dev
     ```
 
 ## Usage
