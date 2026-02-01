@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+  functions = "netlify/functions" # This is where your serverless functions will live
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
