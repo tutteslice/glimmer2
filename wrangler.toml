@@ -1,0 +1,16 @@
+name = "glimmer"
+main = "src/index.ts" # This is a placeholder, as the actual worker script might be different or not needed for a static site
+compatibility_date = "2026-01-31"
+
+[site]
+bucket = "./dist"
+
+[vars]
+VITE_API_KEY = "YOUR_CLOUDFLARE_WORKERS_SECRET_BINDING_NAME"
+# IMPORTANT: For security, do not hardcode your API key here.
+# Instead, use Cloudflare Workers Secrets or Environment Variables
+# configured in your Cloudflare dashboard for the 'glimmer' Worker.
+# The value "YOUR_CLOUDFLARE_WORKERS_SECRET_BINDING_NAME" should
+# be replaced with the name of the secret binding in your Worker's settings.
+# For example, if you add a secret called 'GEMINI_API_KEY' in the dashboard,
+# then here you would write: VITE_API_KEY = "GEMINI_API_KEY"
