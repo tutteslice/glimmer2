@@ -93,6 +93,19 @@ The application relies on the `VITE_API_KEY` environment variable to access the 
 
     -   **Netlify:** Go to "Site settings" -> "Build & deploy" -> "Environment variables". Add `VITE_API_KEY` with your Google Gemini API key.
     -   **Vercel:** Go to your project's "Settings" -> "Environment Variables". Add `VITE_API_KEY` with your Google Gemini API key.
-    -   **Cloudflare Pages:** Go to "Settings" -> "Environment variables" for your project. Add `VITE_API_KEY` with your Google Gemini API key.
+    -   **Cloudflare Pages:**
+        Configure the `wrangler.toml` file in the project root:
+        ```toml
+        # wrangler.toml
+        name = "glimmer"
+        compatibility_date = "2025-10-03"
+        pages_build_output_dir = "./dist"
+        compatibility_flags = ["nodejs_compat"]
+
+        [vars]
+        VITE_API_KEY = "YOUR_CLOUDFLARE_PAGES_ENVIRONMENT_VARIABLE_NAME" # This name must match the environment variable set in Cloudflare Pages
+        ```
+        Then, set `VITE_API_KEY` as an environment variable in your Cloudflare Pages project settings (e.g., "Settings" -> "Environment variables"). The value of this environment variable will be your Google Gemini API key.
+        Deploy using `npx wrangler pages deploy ./dist --project-name glimmer --branch main`.
 
     **Important:** Ensure these variables are set as "Build environment variables" so they are available during the build process when Vite injects them into the application bundle. Avoid hardcoding API keys directly into your codebase.
