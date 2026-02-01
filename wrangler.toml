@@ -1,12 +1,8 @@
 name = "glimmer"
-compatibility_date = "2025-10-03"
-pages_build_output_dir = "./dist"
-compatibility_flags = ["nodejs_compat"]
+compatibility_date = "2024-10-03"
 
-[vars]
-VITE_API_KEY = "YOUR_CLOUDFLARE_PAGES_ENVIRONMENT_VARIABLE_NAME"
-# IMPORTANT: For security, do not hardcode your API key here.
-# Instead, set this as an Environment Variable in your Cloudflare Pages project settings.
-# The name "VITE_API_KEY" should match the variable name you set in the Cloudflare Pages dashboard.
-# Example: In your Pages project settings, add an environment variable named `VITE_API_KEY`
-# with the value of your Google Gemini API key.
+# This is a static site configuration for Cloudflare Pages
+# No vars section needed here - environment variables should be set in the Cloudflare Pages dashboard
+
+# For deployment, use: npx wrangler pages deploy dist --project-name=glimmer
+# Make sure to run 'npm run build' first to generate the dist folder
