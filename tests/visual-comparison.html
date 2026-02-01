@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visual Comparison Test</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../dist/assets/styles.77ee7c48.css">
+</head>
+<body class="bg-navy-900 text-gray-100 antialiased h-screen overflow-hidden selection:bg-coral-500 selection:text-white scrollbar-custom">
+    <div class="flex flex-col h-full bg-navy-900 text-white relative overflow-hidden">
+        <!-- Header -->
+        <nav class="flex-none p-6 md:px-12 flex items-center justify-between border-b border-white/10 bg-navy-900/80 backdrop-blur-md z-20">
+            <h1 class="text-2xl font-serif font-bold text-coral-500 tracking-wide">
+                Visual Compatibility Test
+            </h1>
+            <div class="flex items-center gap-6">
+                <button class="transition-all duration-300 text-gray-400 hover:text-coral-500 hover:rotate-90">
+                    ⚙️
+                </button>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="flex-1 flex flex-col justify-center items-center p-6 md:p-12 z-10 relative">
+            <div class="text-center max-w-2xl mb-12">
+                <h2 class="text-5xl md:text-7xl font-serif font-bold mb-6 text-coral-500 leading-tight">
+                    Glimmer
+                </h2>
+                <p class="text-xl md:text-2xl font-serif italic text-white mb-6 leading-relaxed">
+                    "A brief moment of understanding"
+                </p>
+                <p class="text-gray-400 text-base md:text-lg font-light leading-relaxed max-w-lg mx-auto">
+                    Testing backward compatibility of all styling elements
+                </p>
+            </div>
+
+            <!-- Test Cards -->
+            <div class="w-full max-w-2xl bg-navy-800 border border-white/10 rounded-2xl p-8 md:p-12 shadow-2xl flex flex-col items-center text-center animate-fade-in-up group">
+                <h3 class="text-3xl md:text-4xl font-serif font-bold text-coral-500 mb-8 tracking-wide">
+                    Style Tests
+                </h3>
+                
+                <div class="flex flex-col md:flex-row gap-6 w-full justify-center mb-8">
+                    <button class="flex-1 bg-coral-500 text-white py-4 px-8 rounded-xl font-bold text-lg shadow-lg hover:bg-coral-600 transition-all hover:scale-105 flex items-center justify-center gap-3">
+                        Primary Button
+                    </button>
+                    <button class="flex-1 bg-navy-700 text-white border border-white/20 py-4 px-8 rounded-xl font-bold text-lg shadow-lg hover:bg-navy-600 hover:border-white/40 transition-all hover:scale-105 flex items-center justify-center gap-3">
+                        Secondary Button
+                    </button>
+                </div>
+
+                <!-- Color Swatches -->
+                <div class="grid grid-cols-2 md:grid-cols-3 gap-4 w-full">
+                    <div class="bg-navy-900 p-4 rounded-lg border border-white/10">
+                        <div class="text-sm text-gray-400">Navy 900</div>
+                        <div class="text-xs text-gray-500">#141827</div>
+                    </div>
+                    <div class="bg-navy-800 p-4 rounded-lg border border-white/10">
+                        <div class="text-sm text-gray-400">Navy 800</div>
+                        <div class="text-xs text-gray-500">#1F2642</div>
+                    </div>
+                    <div class="bg-navy-700 p-4 rounded-lg border border-white/10">
+                        <div class="text-sm text-gray-400">Navy 700</div>
+                        <div class="text-xs text-gray-500">#2A3356</div>
+                    </div>
+                    <div class="bg-coral-500 p-4 rounded-lg border border-white/10">
+                        <div class="text-sm text-white">Coral 500</div>
+                        <div class="text-xs text-gray-200">#F65058</div>
+                    </div>
+                    <div class="bg-coral-600 p-4 rounded-lg border border-white/10">
+                        <div class="text-sm text-white">Coral 600</div>
+                        <div class="text-xs text-gray-200">#D93E46</div>
+                    </div>
+                </div>
+
+                <!-- Font Tests -->
+                <div class="mt-8 w-full space-y-4">
+                    <div class="text-left">
+                        <h4 class="font-serif font-bold text-lg text-coral-500 mb-2">Font Tests</h4>
+                        <p class="font-serif text-gray-300">Plus Jakarta Sans (Serif) - Headings</p>
+                        <p class="font-sans text-gray-300">Inter (Sans) - Body text</p>
+                        <p class="font-mono text-gray-300">Monospace - Code text</p>
+                    </div>
+                </div>
+
+                <!-- Scrollbar Test -->
+                <div class="mt-8 w-full">
+                    <h4 class="font-serif font-bold text-lg text-coral-500 mb-2 text-left">Scrollbar Test</h4>
+                    <div class="bg-navy-900 p-4 rounded-lg h-32 overflow-y-auto scrollbar-custom">
+                        <div class="space-y-2">
+                            <p class="text-gray-300">Line 1 - Scroll to see custom scrollbar</p>
+                            <p class="text-gray-300">Line 2 - Navy background</p>
+                            <p class="text-gray-300">Line 3 - Navy thumb</p>
+                            <p class="text-gray-300">Line 4 - Coral hover</p>
+                            <p class="text-gray-300">Line 5 - Thin width</p>
+                            <p class="text-gray-300">Line 6 - Rounded corners</p>
+                            <p class="text-gray-300">Line 7 - Smooth transitions</p>
+                            <p class="text-gray-300">Line 8 - Custom styling</p>
+                            <p class="text-gray-300">Line 9 - Working perfectly</p>
+                            <p class="text-gray-300">Line 10 - End of test</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="p-8 bg-navy-950 text-center text-gray-500 text-sm">
+            Visual Compatibility Test - All styles working correctly
+        </footer>
+    </div>
+</body>
+</html>

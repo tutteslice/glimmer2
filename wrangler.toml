@@ -1,6 +1,6 @@
 name = "glimmer"
 compatibility_date = "2024-10-03"
-
+pages_build_output_dir="./dist"  # Adjust this path to where your build output goes
 # This is a static site configuration for Cloudflare Pages
 # No vars section needed here - environment variables should be set in the Cloudflare Pages dashboard
 

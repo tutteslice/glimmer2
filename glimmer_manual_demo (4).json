@@ -1,0 +1,758 @@
+[
+  {
+    "id": "simon-1",
+    "timestamp": 1769709730247,
+    "type": "POSITIVE",
+    "emotion": "HAPPY",
+    "intensity": 8,
+    "text": "Had coffee with Simon. We talked about his new job and he seems really settled. Good vibes.",
+    "summary": "Coffee with Simon",
+    "reason": "Met Simon",
+    "reaction": "Laughed",
+    "people": [
+      "Simon"
+    ],
+    "moodScore": 85,
+    "tags": [
+      "social",
+      "friendship"
+    ]
+  },
+  {
+    "id": "simon-2",
+    "timestamp": 1769536930247,
+    "type": "POSITIVE",
+    "emotion": "GRATEFUL",
+    "intensity": 9,
+    "text": "Simon helped me move the heavy couch today. I couldn't have done it without him.",
+    "summary": "Moving help",
+    "reason": "Received help",
+    "reaction": "High-fived",
+    "people": [
+      "Simon"
+    ],
+    "moodScore": 90,
+    "tags": [
+      "help",
+      "home"
+    ]
+  },
+  {
+    "id": "simon-3",
+    "timestamp": 1769364130247,
+    "type": "POSITIVE",
+    "emotion": "EXCITED",
+    "intensity": 8,
+    "text": "Planning a road trip with Simon for next month. Looking at maps and Airbnb options.",
+    "summary": "Trip planning",
+    "reason": "Planned trip",
+    "reaction": "Smiled",
+    "people": [
+      "Simon"
+    ],
+    "moodScore": 88,
+    "tags": [
+      "travel",
+      "future"
+    ]
+  },
+  {
+    "id": "simon-4",
+    "timestamp": 1769104930247,
+    "type": "POSITIVE",
+    "emotion": "CALM",
+    "intensity": 6,
+    "text": "Just sat on the porch with Simon, not saying much. It's nice to have friends you can be quiet with.",
+    "summary": "Quiet evening",
+    "reason": "Relaxed with Simon",
+    "reaction": "Relaxed",
+    "people": [
+      "Simon"
+    ],
+    "moodScore": 80,
+    "tags": [
+      "peace",
+      "friendship"
+    ]
+  },
+  {
+    "id": "simon-5",
+    "timestamp": 1768759330247,
+    "type": "POSITIVE",
+    "emotion": "HAPPY",
+    "intensity": 7,
+    "text": "Beat Simon at FIFA finally. He took it well, surprisingly.",
+    "summary": "Gaming win",
+    "reason": "Played games",
+    "reaction": "Cheered",
+    "people": [
+      "Simon"
+    ],
+    "moodScore": 85,
+    "tags": [
+      "gaming",
+      "fun"
+    ]
+  },
+  {
+    "id": "simon-6",
+    "timestamp": 1768500130247,
+    "type": "POSITIVE",
+    "emotion": "GRATEFUL",
+    "intensity": 8,
+    "text": "Simon brought me soup when I wasn't feeling great. He's a true friend.",
+    "summary": "Care package",
+    "reason": "Received care",
+    "reaction": "Felt warm",
+    "people": [
+      "Simon"
+    ],
+    "moodScore": 90,
+    "tags": [
+      "kindness"
+    ]
+  },
+  {
+    "id": "simon-7",
+    "timestamp": 1768240930247,
+    "type": "POSITIVE",
+    "emotion": "EXCITED",
+    "intensity": 9,
+    "text": "We got tickets to the concert! Simon managed to snag front row seats.",
+    "summary": "Concert tickets",
+    "reason": "Bought tickets",
+    "reaction": "Jumped",
+    "people": [
+      "Simon"
+    ],
+    "moodScore": 95,
+    "tags": [
+      "music",
+      "events"
+    ]
+  },
+  {
+    "id": "simon-8",
+    "timestamp": 1767895330247,
+    "type": "POSITIVE",
+    "emotion": "HAPPY",
+    "intensity": 7,
+    "text": "Tried that new burger place with Simon. The food was amazing.",
+    "summary": "Burger lunch",
+    "reason": "Ate lunch",
+    "reaction": "Satisfied",
+    "people": [
+      "Simon"
+    ],
+    "moodScore": 85,
+    "tags": [
+      "food",
+      "outing"
+    ]
+  },
+  {
+    "id": "simon-9",
+    "timestamp": 1767636130247,
+    "type": "POSITIVE",
+    "emotion": "CALM",
+    "intensity": 5,
+    "text": "Morning jog with Simon. Good pace, fresh air.",
+    "summary": "Morning run",
+    "reason": "Exercised",
+    "reaction": "Breathed",
+    "people": [
+      "Simon"
+    ],
+    "moodScore": 75,
+    "tags": [
+      "health",
+      "morning"
+    ]
+  },
+  {
+    "id": "simon-10",
+    "timestamp": 1767376930247,
+    "type": "POSITIVE",
+    "emotion": "GRATEFUL",
+    "intensity": 8,
+    "text": "Simon gave me great advice about the work situation. Helped me see it clearly.",
+    "summary": "Good advice",
+    "reason": "Talked to Simon",
+    "reaction": "Relieved",
+    "people": [
+      "Simon"
+    ],
+    "moodScore": 88,
+    "tags": [
+      "advice",
+      "work"
+    ]
+  },
+  {
+    "id": "lelo-1",
+    "timestamp": 1769623330247,
+    "type": "POSITIVE",
+    "emotion": "HAPPY",
+    "intensity": 7,
+    "text": "Ran into Lelo at the library. We realized we're reading the same sci-fi series.",
+    "summary": "Library coincindence",
+    "reason": "Met Lelo",
+    "reaction": "Smiled",
+    "people": [
+      "Lelo"
+    ],
+    "moodScore": 85,
+    "tags": [
+      "books",
+      "coincidence"
+    ]
+  },
+  {
+    "id": "lelo-2",
+    "timestamp": 1769450530247,
+    "type": "POSITIVE",
+    "emotion": "GRATEFUL",
+    "intensity": 6,
+    "text": "It started raining and I didn't have an umbrella. Lelo shared hers to the bus stop. Very kind of her.",
+    "summary": "Shared umbrella",
+    "reason": "Walked with Lelo",
+    "reaction": "Thanked her",
+    "people": [
+      "Lelo"
+    ],
+    "moodScore": 80,
+    "tags": [
+      "kindness",
+      "rain"
+    ]
+  },
+  {
+    "id": "lelo-3",
+    "timestamp": 1769277730247,
+    "type": "POSITIVE",
+    "emotion": "CALM",
+    "intensity": 7,
+    "text": "Working alongside Lelo on the community project. She has a very organized way of thinking that I admire.",
+    "summary": "Project collaboration",
+    "reason": "Worked with Lelo",
+    "reaction": "Observed",
+    "people": [
+      "Lelo"
+    ],
+    "moodScore": 82,
+    "tags": [
+      "work",
+      "admiration"
+    ]
+  },
+  {
+    "id": "lelo-4",
+    "timestamp": 1769018530247,
+    "type": "POSITIVE",
+    "emotion": "EXCITED",
+    "intensity": 7,
+    "text": "Lelo recommended a podcast about architecture. It's actually fascinating.",
+    "summary": "Podcast recommendation",
+    "reason": "Listened to recommendation",
+    "reaction": "Engaged",
+    "people": [
+      "Lelo"
+    ],
+    "moodScore": 85,
+    "tags": [
+      "learning",
+      "interests"
+    ]
+  },
+  {
+    "id": "lelo-5",
+    "timestamp": 1768845730247,
+    "type": "POSITIVE",
+    "emotion": "HAPPY",
+    "intensity": 6,
+    "text": "Noticed Lelo changed her hair. It suits her.",
+    "summary": "New hairstyle",
+    "reason": "Saw Lelo",
+    "reaction": "Noticed",
+    "people": [
+      "Lelo"
+    ],
+    "moodScore": 75,
+    "tags": [
+      "observation"
+    ]
+  },
+  {
+    "id": "lelo-6",
+    "timestamp": 1768586530247,
+    "type": "POSITIVE",
+    "emotion": "GRATEFUL",
+    "intensity": 7,
+    "text": "I forgot my notes for the meeting. Lelo had an extra copy she let me use.",
+    "summary": "Saved by Lelo",
+    "reason": "Received help",
+    "reaction": "Relieved",
+    "people": [
+      "Lelo"
+    ],
+    "moodScore": 85,
+    "tags": [
+      "work",
+      "help"
+    ]
+  },
+  {
+    "id": "lelo-7",
+    "timestamp": 1768327330247,
+    "type": "POSITIVE",
+    "emotion": "HAPPY",
+    "intensity": 8,
+    "text": "Lelo has a really distinct laugh. Made the whole group lighten up today.",
+    "summary": "Lelo's laugh",
+    "reason": "Heard laughter",
+    "reaction": "Smiled",
+    "people": [
+      "Lelo"
+    ],
+    "moodScore": 88,
+    "tags": [
+      "social",
+      "joy"
+    ]
+  },
+  {
+    "id": "lelo-8",
+    "timestamp": 1768068130247,
+    "type": "POSITIVE",
+    "emotion": "CALM",
+    "intensity": 6,
+    "text": "Sat near Lelo during the break. We didn't talk much, just enjoyed the quiet.",
+    "summary": "Quiet break",
+    "reason": "Sat with Lelo",
+    "reaction": "Relaxed",
+    "people": [
+      "Lelo"
+    ],
+    "moodScore": 78,
+    "tags": [
+      "break",
+      "presence"
+    ]
+  },
+  {
+    "id": "lelo-9",
+    "timestamp": 1767722530247,
+    "type": "POSITIVE",
+    "emotion": "EXCITED",
+    "intensity": 7,
+    "text": "Found out Lelo also speaks a bit of French. We tried to have a basic conversation.",
+    "summary": "Language practice",
+    "reason": "Talked to Lelo",
+    "reaction": "Laughed",
+    "people": [
+      "Lelo"
+    ],
+    "moodScore": 85,
+    "tags": [
+      "language",
+      "fun"
+    ]
+  },
+  {
+    "id": "lelo-10",
+    "timestamp": 1767463330247,
+    "type": "POSITIVE",
+    "emotion": "HAPPY",
+    "intensity": 7,
+    "text": "Shared a coffee with Lelo. She has interesting perspectives on the city.",
+    "summary": "Coffee chat",
+    "reason": "Drank coffee",
+    "reaction": "Listened",
+    "people": [
+      "Lelo"
+    ],
+    "moodScore": 82,
+    "tags": [
+      "conversation",
+      "coffee"
+    ]
+  },
+  {
+    "id": "zoey-1",
+    "timestamp": 1769709730247,
+    "type": "POSITIVE",
+    "emotion": "HAPPY",
+    "intensity": 9,
+    "text": "Zoey showed me her drawing of a dragon. It was purple and had five legs. Adorable.",
+    "summary": "Dragon drawing",
+    "reason": "Saw drawing",
+    "reaction": "Praised her",
+    "people": [
+      "Zoey"
+    ],
+    "moodScore": 92,
+    "tags": [
+      "art",
+      "kids"
+    ]
+  },
+  {
+    "id": "zoey-2",
+    "timestamp": 1769450530247,
+    "type": "POSITIVE",
+    "emotion": "EXCITED",
+    "intensity": 8,
+    "text": "Played tag with Zoey in the park. She's getting fast!",
+    "summary": "Playing tag",
+    "reason": "Played outside",
+    "reaction": "Ran",
+    "people": [
+      "Zoey"
+    ],
+    "moodScore": 90,
+    "tags": [
+      "play",
+      "park"
+    ]
+  },
+  {
+    "id": "zoey-3",
+    "timestamp": 1769191330247,
+    "type": "POSITIVE",
+    "emotion": "GRATEFUL",
+    "intensity": 7,
+    "text": "Zoey shared her cookie with me. 'Half for you' she said.",
+    "summary": "Shared cookie",
+    "reason": "Received snack",
+    "reaction": "Ate it",
+    "people": [
+      "Zoey"
+    ],
+    "moodScore": 88,
+    "tags": [
+      "sharing",
+      "sweet"
+    ]
+  },
+  {
+    "id": "zoey-4",
+    "timestamp": 1768932130247,
+    "type": "POSITIVE",
+    "emotion": "CALM",
+    "intensity": 6,
+    "text": "Read a story to Zoey. She fell asleep halfway through.",
+    "summary": "Storytime",
+    "reason": "Read book",
+    "reaction": "Whispered",
+    "people": [
+      "Zoey"
+    ],
+    "moodScore": 85,
+    "tags": [
+      "reading",
+      "calm"
+    ]
+  },
+  {
+    "id": "zoey-5",
+    "timestamp": 1768672930247,
+    "type": "POSITIVE",
+    "emotion": "HAPPY",
+    "intensity": 8,
+    "text": "Zoey learned to tie her shoes today! She was so proud.",
+    "summary": "Shoe tying",
+    "reason": "Watched Zoey",
+    "reaction": "Clapped",
+    "people": [
+      "Zoey"
+    ],
+    "moodScore": 90,
+    "tags": [
+      "milestone"
+    ]
+  },
+  {
+    "id": "zoey-6",
+    "timestamp": 1768413730247,
+    "type": "POSITIVE",
+    "emotion": "EXCITED",
+    "intensity": 9,
+    "text": "Zoey found a 'magic rock' in the garden. She was so excited to show me.",
+    "summary": "Magic rock",
+    "reason": "Found object",
+    "reaction": "Examined it",
+    "people": [
+      "Zoey"
+    ],
+    "moodScore": 92,
+    "tags": [
+      "discovery"
+    ]
+  },
+  {
+    "id": "zoey-7",
+    "timestamp": 1768154530247,
+    "type": "POSITIVE",
+    "emotion": "HAPPY",
+    "intensity": 7,
+    "text": "Zoey told me a knock-knock joke. It didn't make sense but her delivery was perfect.",
+    "summary": "Zoey's joke",
+    "reason": "Heard joke",
+    "reaction": "Laughed",
+    "people": [
+      "Zoey"
+    ],
+    "moodScore": 88,
+    "tags": [
+      "humor"
+    ]
+  },
+  {
+    "id": "zoey-8",
+    "timestamp": 1767808930247,
+    "type": "POSITIVE",
+    "emotion": "CALM",
+    "intensity": 5,
+    "text": "Coloring book time with Zoey. Very therapeutic.",
+    "summary": "Coloring",
+    "reason": "Colored",
+    "reaction": "Focused",
+    "people": [
+      "Zoey"
+    ],
+    "moodScore": 80,
+    "tags": [
+      "art",
+      "relax"
+    ]
+  },
+  {
+    "id": "zoey-9",
+    "timestamp": 1767549730247,
+    "type": "POSITIVE",
+    "emotion": "HAPPY",
+    "intensity": 8,
+    "text": "Zoey gave me a high-five for fixing her toy.",
+    "summary": "Toy fix",
+    "reason": "Fixed toy",
+    "reaction": "High-fived",
+    "people": [
+      "Zoey"
+    ],
+    "moodScore": 85,
+    "tags": [
+      "helping"
+    ]
+  },
+  {
+    "id": "zoey-10",
+    "timestamp": 1767290530247,
+    "type": "POSITIVE",
+    "emotion": "GRATEFUL",
+    "intensity": 7,
+    "text": "Zoey picked a dandelion for me.",
+    "summary": "Flower gift",
+    "reason": "Received flower",
+    "reaction": "Smiled",
+    "people": [
+      "Zoey"
+    ],
+    "moodScore": 88,
+    "tags": [
+      "nature",
+      "gift"
+    ]
+  },
+  {
+    "id": "lidija-1",
+    "timestamp": 1769623330247,
+    "type": "POSITIVE",
+    "emotion": "GRATEFUL",
+    "intensity": 8,
+    "text": "Lidija invited me over for dinner. Her cooking is always comforting.",
+    "summary": "Dinner invitation",
+    "reason": "Ate dinner",
+    "reaction": "Satisfied",
+    "people": [
+      "Lidija"
+    ],
+    "moodScore": 88,
+    "tags": [
+      "food",
+      "hospitality"
+    ]
+  },
+  {
+    "id": "lidija-2",
+    "timestamp": 1769364130247,
+    "type": "POSITIVE",
+    "emotion": "HAPPY",
+    "intensity": 7,
+    "text": "Ran into Lidija at the market. Had a quick nice chat about vegetables.",
+    "summary": "Market chat",
+    "reason": "Met Lidija",
+    "reaction": "Chatted",
+    "people": [
+      "Lidija"
+    ],
+    "moodScore": 82,
+    "tags": [
+      "market",
+      "social"
+    ]
+  },
+  {
+    "id": "lidija-3",
+    "timestamp": 1769104930247,
+    "type": "POSITIVE",
+    "emotion": "CALM",
+    "intensity": 6,
+    "text": "Gardening tips from Lidija. She knows so much about plants.",
+    "summary": "Gardening talk",
+    "reason": "Discussed plants",
+    "reaction": "Listened",
+    "people": [
+      "Lidija"
+    ],
+    "moodScore": 80,
+    "tags": [
+      "garden",
+      "learning"
+    ]
+  },
+  {
+    "id": "lidija-4",
+    "timestamp": 1768845730247,
+    "type": "POSITIVE",
+    "emotion": "EXCITED",
+    "intensity": 7,
+    "text": "Lidija is planning a surprise party for Lelo. Fun to be in on the secret.",
+    "summary": "Secret planning",
+    "reason": "Planned party",
+    "reaction": "Whispered",
+    "people": [
+      "Lidija",
+      "Lelo"
+    ],
+    "moodScore": 85,
+    "tags": [
+      "party",
+      "secret"
+    ]
+  },
+  {
+    "id": "lidija-5",
+    "timestamp": 1768586530247,
+    "type": "POSITIVE",
+    "emotion": "GRATEFUL",
+    "intensity": 8,
+    "text": "Lidija gave me a cutting of her pothos plant. Hope I can keep it alive.",
+    "summary": "Plant gift",
+    "reason": "Received plant",
+    "reaction": "Thanked her",
+    "people": [
+      "Lidija"
+    ],
+    "moodScore": 85,
+    "tags": [
+      "plants",
+      "gift"
+    ]
+  },
+  {
+    "id": "lidija-6",
+    "timestamp": 1768240930247,
+    "type": "POSITIVE",
+    "emotion": "HAPPY",
+    "intensity": 7,
+    "text": "Lidija complimented my new shirt. She has good taste.",
+    "summary": "Compliment",
+    "reason": "Received compliment",
+    "reaction": "Smiled",
+    "people": [
+      "Lidija"
+    ],
+    "moodScore": 82,
+    "tags": [
+      "compliment",
+      "style"
+    ]
+  },
+  {
+    "id": "lidija-7",
+    "timestamp": 1767981730247,
+    "type": "POSITIVE",
+    "emotion": "CALM",
+    "intensity": 6,
+    "text": "Walked the dog with Lidija. Nice evening stroll.",
+    "summary": "Dog walk",
+    "reason": "Walked",
+    "reaction": "Walked",
+    "people": [
+      "Lidija"
+    ],
+    "moodScore": 78,
+    "tags": [
+      "walk",
+      "pets"
+    ]
+  },
+  {
+    "id": "lidija-8",
+    "timestamp": 1767636130247,
+    "type": "POSITIVE",
+    "emotion": "HAPPY",
+    "intensity": 7,
+    "text": "Lidija told a funny story about her childhood with Lelo.",
+    "summary": "Childhood story",
+    "reason": "Heard story",
+    "reaction": "Laughed",
+    "people": [
+      "Lidija",
+      "Lelo"
+    ],
+    "moodScore": 85,
+    "tags": [
+      "story",
+      "history"
+    ]
+  },
+  {
+    "id": "lidija-9",
+    "timestamp": 1767376930247,
+    "type": "POSITIVE",
+    "emotion": "GRATEFUL",
+    "intensity": 7,
+    "text": "Lidija helped me pick out a gift for my mom.",
+    "summary": "Gift help",
+    "reason": "Shopped",
+    "reaction": "Relieved",
+    "people": [
+      "Lidija"
+    ],
+    "moodScore": 84,
+    "tags": [
+      "shopping",
+      "help"
+    ]
+  },
+  {
+    "id": "lidija-10",
+    "timestamp": 1767204130247,
+    "type": "POSITIVE",
+    "emotion": "EXCITED",
+    "intensity": 8,
+    "text": "Lidija showed me photos from her recent trip. Looks amazing.",
+    "summary": "Travel photos",
+    "reason": "Saw photos",
+    "reaction": "Admired",
+    "people": [
+      "Lidija"
+    ],
+    "moodScore": 85,
+    "tags": [
+      "travel",
+      "photos"
+    ]
+  }
+]

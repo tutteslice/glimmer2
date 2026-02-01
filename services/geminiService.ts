@@ -8,6 +8,13 @@ const getAi = async () => {
         console.warn("API Key is missing. Make sure to set VITE_API_KEY in your .env file.");
         return null;
     }
+    
+    // Quick connectivity check for proxy issues
+    if (typeof window !== 'undefined' && !window.navigator.onLine) {
+        console.error("Offline: No internet connection detected.");
+        return null;
+    }
+
     try {
         return new GoogleGenAI({ apiKey: import.meta.env.VITE_API_KEY });
     } catch (e) {
@@ -207,8 +214,15 @@ export const generateShareableSummary = async (
       contents: prompt,
     });
     return response.text || "";
-  } catch (error) {
+  } catch (error: any) {
     console.error("Shareable summary failed:", error);
+    
+    // Check for network/proxy errors
+    const errorMessage = error.message?.toLowerCase() || "";
+    if (errorMessage.includes("fetch") || errorMessage.includes("proxy") || errorMessage.includes("network")) {
+        return "⚠️ Summary Generation Failed: Your network or proxy is blocking the connection to the AI service. Please check your proxy settings or try a different network.";
+    }
+    
     return "Sharing moments of gratitude.";
   }
 };
