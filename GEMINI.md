@@ -77,4 +77,22 @@ The application is structured into several key directories:
 -   **API Interaction:** All interactions with the Gemini API are centralized in `services/geminiService.ts`.
 -   **Data Persistence:** All diary entries and settings are stored in the browser's `localStorage`. The `services/storageService.ts` module provides an abstraction layer for these operations.
 -   **Types:** The project is written in TypeScript, and types are defined in `types.ts`.
--   **Environment Variables:** The Gemini API key is expected to be available as an environment variable via `import.meta.env`.
+## Environment Variables
+
+The application relies on the `VITE_API_KEY` environment variable to access the Google Gemini API. This variable must be securely configured in your development and deployment environments.
+
+-   **Local Development:**
+    Create a `.env` file in the root of your project (e.g., `/.env`) and add your API key:
+    ```
+    VITE_API_KEY=your_google_gemini_api_key
+    ```
+    This file is ignored by Git (`.gitignore`) and should *never* be committed to version control.
+
+-   **Deployment to Static Hosting (e.g., Netlify, Vercel, Cloudflare Pages):**
+    When deploying, you must configure `VITE_API_KEY` directly within your hosting provider's settings. The exact steps vary by platform:
+
+    -   **Netlify:** Go to "Site settings" -> "Build & deploy" -> "Environment variables". Add `VITE_API_KEY` with your Google Gemini API key.
+    -   **Vercel:** Go to your project's "Settings" -> "Environment Variables". Add `VITE_API_KEY` with your Google Gemini API key.
+    -   **Cloudflare Pages:** Go to "Settings" -> "Environment variables" for your project. Add `VITE_API_KEY` with your Google Gemini API key.
+
+    **Important:** Ensure these variables are set as "Build environment variables" so they are available during the build process when Vite injects them into the application bundle. Avoid hardcoding API keys directly into your codebase.
