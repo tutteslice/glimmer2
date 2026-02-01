@@ -91,7 +91,21 @@ The application relies on the `VITE_API_KEY` environment variable to access the 
 -   **Deployment to Static Hosting (e.g., Netlify, Vercel, Cloudflare Pages):**
     When deploying, you must configure `VITE_API_KEY` directly within your hosting provider's settings. The exact steps vary by platform:
 
-    -   **Netlify:** Go to "Site settings" -> "Build & deploy" -> "Environment variables". Add `VITE_API_KEY` with your Google Gemini API key.
+    -   **Netlify:**
+        1.  **Configure `netlify.toml`:** Ensure you have a `netlify.toml` file in your project root, similar to this:
+            ```toml
+            [build]
+              command = "npm run build"
+              publish = "dist"
+              functions = "netlify/functions" # Your Netlify Functions directory
+
+            [[redirects]]
+              from = "/*"
+              to = "/index.html"
+              status = 200
+            ```
+        2.  **Set Environment Variable:** Go to "Site settings" -> "Build & deploy" -> "Environment variables". Add `VITE_API_KEY` with your Google Gemini API key.
+        3.  **Deploy:** Netlify will automatically detect your `netlify.toml` and deploy your site and functions.
     -   **Vercel:** Go to your project's "Settings" -> "Environment Variables". Add `VITE_API_KEY` with your Google Gemini API key.
     -   **Cloudflare Pages:**
         Configure the `wrangler.toml` file in the project root:
