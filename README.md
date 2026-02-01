@@ -73,3 +73,16 @@ Powered by **Google Gemini AI**, Glimmer offers structured analysis, mood tracki
 ## License
 
 Private & Secure.
+
+## Deployment
+
+To deploy this application to a static hosting service (e.g., Netlify, Vercel, GitHub Pages, or any web server):
+
+1.  **Build the project:**
+    ```bash
+    npm run build
+    ```
+    This command compiles the React application into static files and places them in the `dist` directory.
+
+2.  **Upload the `dist` folder:**
+    Upload the *contents* of the `dist` folder to your chosen static hosting service. Refer to your hosting provider's documentation for specific instructions on how to upload static sites.
